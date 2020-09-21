@@ -1,0 +1,37 @@
+package br.com.bussiness;
+
+import java.util.ArrayList;
+
+import br.com.dao.DaoLivro;
+import br.com.exception.BusinessException;
+import br.com.exception.DaoException;
+import br.com.model.Livro;
+
+public class BusinessLivro implements IBusinessLivro{
+	
+	private DaoLivro daoLivro;
+	
+	public BusinessLivro() {
+		this.daoLivro = new DaoLivro();
+	}
+
+	@Override
+	public Livro cadastrar(Livro livro) throws BusinessException {
+		
+		try {
+			livro =  daoLivro.cadastrar(livro);
+		} catch (DaoException e) {
+			e.printStackTrace();
+			throw new BusinessException(e.getMessage());			
+		}
+		return livro;
+	}
+
+	@Override
+	public ArrayList<Livro> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

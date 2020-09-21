@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="sistemacepedc.DbException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="db.DbException"/>
+<fullyQualifiedTypeName name="db.SqlConnection"/>
+<fullyQualifiedTypeName name="br.com.bussiness.IBussinessLivro"/>
+<fullyQualifiedTypeName name="br.com.bussiness.BusinessLivro"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.dao.IDaoLivro"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="br.com.connection.SqlUtil.LivroSQL"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="br.com.fachada.Fachada"/>
+<fullyQualifiedTypeName name="br.com.dao.DaoLivro"/>
+<fullyQualifiedTypeName name="br.com.exception.DaoException"/>
+<fullyQualifiedTypeName name="br.com.exception.BusinessException"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.dao.IDaoUsuarioAdm"/>
+<fullyQualifiedTypeName name="br.com.dao.IDaoUsuarioComum"/>
+<fullyQualifiedTypeName name="br.com.connection.SqlConnection"/>
+<fullyQualifiedTypeName name="br.com.connection.SqlUtil"/>
+<fullyQualifiedTypeName name="br.com.sql.SqlUtil"/>
+<fullyQualifiedTypeName name="br.com.sql.SqlUtil.UsuarioComumSQL"/>
+<fullyQualifiedTypeName name="br.com.bussiness.IBusinessUsuarioComum"/>
+<fullyQualifiedTypeName name="br.com.dao.DaoUsuarioComum"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="br.com.bussiness.IBusinessUsuarioAdm"/>
+<fullyQualifiedTypeName name="br.com.dao.DaoUsuarioAdm"/>
+<fullyQualifiedTypeName name="br.com.bussiness.BusinessUsuarioAdm"/>
+<fullyQualifiedTypeName name="br.com.bussiness.BusinessUsuarioComum"/>
+<fullyQualifiedTypeName name="br.com.model.Livro"/>
+<fullyQualifiedTypeName name="br.com.model.UsuarioComum"/>
+<fullyQualifiedTypeName name="br.com.model.UsuarioAdm"/>
+</qualifiedTypeNameHistroy>

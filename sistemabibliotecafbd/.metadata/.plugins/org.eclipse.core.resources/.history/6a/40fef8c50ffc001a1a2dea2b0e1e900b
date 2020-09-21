@@ -1,0 +1,25 @@
+package br.com.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+
+import br.com.exception.DaoException;
+import br.com.model.UsuarioComum;
+
+public class DaoUsuarioComum implements IDaoUsuarioComum{
+	
+	private Connection conexao;
+	private PreparedStatement statement;
+	@Override
+	public UsuarioComum cadastrar(UsuarioComum usuarioComum) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public ArrayList<UsuarioComum> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

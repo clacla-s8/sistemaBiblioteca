@@ -1,0 +1,51 @@
+package br.com.model;
+
+public class Livro {
+	
+	private int id;
+	private String nomeLivro;
+	private String editora;	
+	private String autor1;
+	private String autor2;		
+	
+	public Livro(String nomeLivro, String editora, String autor1, String autor2) {
+		super();
+		this.nomeLivro = nomeLivro;
+		this.editora = editora;
+		this.autor1 = autor1;
+		this.autor2 = autor2;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNomeLivro() {
+		return nomeLivro;
+	}
+	public void setNomeLivro(String nomeLivro) {
+		this.nomeLivro = nomeLivro;
+	}
+	public String getEditora() {
+		return editora;
+	}
+	public void setEditora(String editora) {
+		this.editora = editora;
+	}
+	public String getAutor1() {
+		return autor1;
+	}
+	public void setAutor1(String autor1) {
+		this.autor1 = autor1;
+	}
+	public String getAutor2() {
+		return autor2;
+	}
+	public void setAutor2(String autor2) {
+		this.autor2 = autor2;
+	}
+	
+	
+	
+}

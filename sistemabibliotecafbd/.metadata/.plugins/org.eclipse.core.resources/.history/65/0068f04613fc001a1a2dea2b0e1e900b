@@ -1,0 +1,45 @@
+package br.com.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import br.com.exception.DaoException;
+import br.com.model.UsuarioComum;
+import br.com.sql.SqlConnection;
+import br.com.sql.SqlUtil;
+
+public class DaoUsuarioComum implements IDaoUsuarioComum{
+	
+	private Connection conexao;
+	private PreparedStatement statement;
+	
+	
+	public DaoUsuarioComum() {
+		this.conexao = SqlConnection.getInstance();
+	}
+	
+	
+	@Override
+	public UsuarioComum cadastrar(UsuarioComum usuarioComum) throws DaoException {
+		try {
+			this.statement = conexao.prepareStatement(SqlUtil.UsuarioComumSQL.INSERT_ALL);
+			this.statement.setString(1, usuarioComum.getNome());
+			this.statement.setString(2, usuarioComum.getCpf());
+			this.statement.setString(3, usuarioComum.getTelefone());
+			this.statement.setString(4, usuarioComum.getEndereco());
+			this.statement.execute();
+			
+		} catch (SQLException e) {			
+			e.printStackTrace();
+		}
+		return usuarioComum;
+	}
+	@Override
+	public ArrayList<UsuarioComum> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

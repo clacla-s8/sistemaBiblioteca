@@ -1,0 +1,11 @@
+package br.com.bussiness;
+
+import java.util.ArrayList;
+
+import br.com.model.Livro;
+
+public interface IBusinessLivro {
+	public Livro cadastrar( Livro livro);
+	public ArrayList<Livro> getAll();
+
+}

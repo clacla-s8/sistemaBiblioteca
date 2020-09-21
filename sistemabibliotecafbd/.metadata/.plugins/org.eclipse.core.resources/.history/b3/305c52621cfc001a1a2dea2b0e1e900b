@@ -1,0 +1,24 @@
+package br.com.bussiness;
+
+import java.util.ArrayList;
+
+import br.com.dao.DaoUsuarioAdm;
+import br.com.exception.BusinessException;
+import br.com.model.UsuarioAdm;
+
+public class BusinessUsuarioAdm implements IBusinessUsuarioAdm {
+	
+	private DaoUsuarioAdm daoUsuarioAdm;
+	@Override
+	public UsuarioAdm cadastrar(UsuarioAdm usuarioAdm) throws BusinessException {
+		
+		return null;
+	}
+
+	@Override
+	public ArrayList<UsuarioAdm> getAll() {
+		
+		return null;
+	}
+
+}

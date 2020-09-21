@@ -1,0 +1,28 @@
+package application;
+
+import br.com.exception.BusinessException;
+import br.com.fachada.Fachada;
+import br.com.model.Livro;
+
+public class App {
+
+	public static void main(String[] args) {
+		System.out.println("Inicio");
+		
+		Fachada fachada = new Fachada();
+		
+		Livro livro1 = new Livro("livro ", "uma editora");
+		
+		
+		try {
+			fachada.cadastarLivro(livro1);			
+			
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("Fim");
+	}
+
+}

@@ -1,0 +1,29 @@
+package br.com.bussiness;
+
+import java.util.ArrayList;
+
+import br.com.dao.DaoLivro;
+import br.com.model.Livro;
+
+public class BusinessLivro implements IBusinessLivro{
+	
+	private DaoLivro daoLivro;
+	
+	public BusinessLivro() {
+		this.daoLivro = new DaoLivro();
+	}
+
+	@Override
+	public Livro cadastrar(Livro livro) {
+		
+		return null;
+	}
+
+	@Override
+	public ArrayList<Livro> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

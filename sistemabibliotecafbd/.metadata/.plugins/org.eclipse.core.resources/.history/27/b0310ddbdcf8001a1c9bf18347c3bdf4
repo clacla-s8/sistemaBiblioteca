@@ -1,0 +1,32 @@
+package br.com.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+
+import br.com.exception.DaoException;
+import br.com.model.Livro;
+
+public class DaoLivro implements IDaoLivro{
+	
+	private Connection conexao;
+	private PreparedStatement statement;
+	
+	public DaoAluno() {
+		this.conexao = SqlConnection.getInstance();
+	}
+
+	@Override
+	public Livro cadastrar(Livro livro) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Livro> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

@@ -1,0 +1,27 @@
+package br.com.fachada;
+
+import java.util.ArrayList;
+
+import br.com.bussiness.BusinessLivro;
+import br.com.exception.BusinessException;
+import br.com.model.Livro;
+
+public class Fachada implements IFachada{
+	
+	private BusinessLivro businessLivro = new BusinessLivro();
+
+	@Override
+	public Livro cadastarLivro(Livro livro) throws BusinessException {
+		
+		return this.businessLivro.cadastrar(livro);
+	}
+
+	@Override
+	public ArrayList<Livro> getAllLivro() {
+		
+		return null;
+	}
+	
+	
+	
+}

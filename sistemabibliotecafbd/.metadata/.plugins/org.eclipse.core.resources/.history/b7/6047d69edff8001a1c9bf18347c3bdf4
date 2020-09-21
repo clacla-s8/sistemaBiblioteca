@@ -1,0 +1,21 @@
+package br.com.connection;
+
+public class SqlUtil {
+	
+	public final static String URL = "jdbc:postgresql://localhost:5432/sistemacepedc";
+	public final static String LOGIN = "postgres";
+	public final static String SENHA = "1234";
+	public final static String COL_ID = "id";
+	
+	public static class LivroSQL{
+		public final static String NAME_TABLE = "livro";
+		public final static String COL_NOME = "nomeLivro";
+		public final static String COL_CPF = "editora";
+
+		
+		public final static String INSERT_ALL = ""
+				+ "INSERT INTO "+ NAME_TABLE+
+				"("+COL_NOME+","+COL_CPF+") VALUES(?,?)";
+	}
+
+}

@@ -1,0 +1,38 @@
+package br.com.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+
+import br.com.exception.DaoException;
+import br.com.model.UsuarioAdm;
+import br.com.sql.SqlConnection;
+import br.com.sql.SqlUtil;
+
+public class DaoUsuarioAdm implements IDaoUsuarioAdm {
+	
+	private Connection conexao;
+	private PreparedStatement statement;
+	
+	
+
+	public DaoUsuarioAdm() {
+		this.conexao = SqlConnection.getInstance();
+	}
+	
+	
+	@Override
+	public UsuarioAdm cadastrar(UsuarioAdm usuarioAdm) throws DaoException {
+		
+		
+		
+		return usuarioAdm;
+	}
+
+	@Override
+	public ArrayList<UsuarioAdm> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

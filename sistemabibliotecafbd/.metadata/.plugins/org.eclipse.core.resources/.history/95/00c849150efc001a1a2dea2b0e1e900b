@@ -1,0 +1,12 @@
+package br.com.model;
+
+public class UsuarioComum {
+	private int id;
+	private String nome;
+	private String cpf;
+	private String telefone;
+	private String endereco;
+	
+	
+
+}

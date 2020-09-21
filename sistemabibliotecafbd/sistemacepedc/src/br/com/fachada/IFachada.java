@@ -1,0 +1,15 @@
+package br.com.fachada;
+
+import java.util.ArrayList;
+
+import br.com.exception.BusinessException;
+import br.com.model.Livro;
+import br.com.model.UsuarioAdm;
+import br.com.model.UsuarioComum;
+
+public interface IFachada {
+	public Livro cadastarLivro(Livro livro) throws BusinessException;
+	public UsuarioComum cadastrarUsuarioComum(UsuarioComum usuarioComum) throws BusinessException;
+	public UsuarioAdm cadastarUsuarioAdm(UsuarioAdm usuarioAdm) throws BusinessException;
+	public ArrayList<Livro> getAllLivro();
+}
