@@ -5,7 +5,7 @@ Sistema para biblioteca do CEPEDC. O sistema irá realizar o cadastro de livros,
 
 ###### Sistema com 7 Entidades:
 
-Livro (id, nome, editora, autor1, autor2)<br/>
+Livro (id, nomeLivro, editora, autor1, autor2)<br/>
 UsuarioAdm (id, nome, cpf, login, senha)<br/>
 UsuarioComum (id, nome, cpf)<br/>
 Emprestimo (id, usuarioComum_id, usuarioAdm_id, livro_id, dataEmprestimo, dataDevolucao)<br/>
@@ -15,7 +15,7 @@ Telefone (id, usuarioComum_id, numero, tipo)<br/>
 
 ###### Sistema com 5 entidades:
 
-Livro (id, nome, editora, autor1, autor2)<br/>
+Livro (id, nomeLivro, editora, autor1, autor2)<br/>
 UsuarioAdm (id, nome, cpf, login, senha)<br/>
 UsuarioComum (id, nome, cpf, endereço, telefone)<br/>
 Emprestimo (id, usuarioComum_id, usuarioAdm_id, livro_id, dataEmprestimo, dataDevolucao)<br/>
